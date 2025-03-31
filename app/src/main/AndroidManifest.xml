@@ -13,9 +13,17 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
-            android:name=".TextFieldActivity"
+            android:name=".LazyColumnActivity"
             android:exported="false"
             android:theme="@style/Theme.JetpackCompose"/>
+        <activity
+            android:name=".RowColumnActivity"
+            android:exported="false"
+            android:theme="@style/Theme.JetpackCompose" />
+        <activity
+            android:name=".TextFieldActivity"
+            android:exported="false"
+            android:theme="@style/Theme.JetpackCompose" />
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -36,7 +44,7 @@
             android:name=".ButtonsActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.JetpackCompose"></activity>
+            android:theme="@style/Theme.JetpackCompose" />
     </application>
 
 </manifest>

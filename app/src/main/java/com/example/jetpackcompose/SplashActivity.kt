@@ -33,6 +33,17 @@ class SplashActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val rowColumn = findViewById<Button>(R.id.rowcolumn);
+        rowColumn.setOnClickListener {
+            val intent : Intent = Intent(this, RowColumnActivity::class.java);
+            startActivity(intent)
+        }
+
+        val lazyColumn = findViewById<Button>(R.id.lazycolumn);
+        lazyColumn.setOnClickListener {
+            val intent : Intent = Intent(this, LazyColumnActivity::class.java);
+            startActivity(intent)
+        }
 
     }
 }

@@ -35,4 +35,19 @@
         android:text="textfield">
     </Button>
 
+    <Button
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:id="@+id/rowcolumn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Row Column">
+    </Button>
+
+    <Button
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:id="@+id/lazycolumn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lazy Column">
+    </Button>
 </LinearLayout>
