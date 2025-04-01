@@ -50,4 +50,30 @@
         android:layout_height="wrap_content"
         android:text="Lazy Column">
     </Button>
+
+    <Button
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State hoisting">
+    </Button>
+
+
+    <Button
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quote app">
+    </Button>
+
+    <Button
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:id="@+id/lambda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lambda">
+    </Button>
+
 </LinearLayout>

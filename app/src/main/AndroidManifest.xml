@@ -13,9 +13,21 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
+            android:name=".LambdaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.JetpackCompose" />
+        <activity
+            android:name=".QuoteActivity"
+            android:exported="false"
+            android:theme="@style/Theme.JetpackCompose" />
+        <activity
+            android:name=".StateHoistingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.JetpackCompose" />
+        <activity
             android:name=".LazyColumnActivity"
             android:exported="false"
-            android:theme="@style/Theme.JetpackCompose"/>
+            android:theme="@style/Theme.JetpackCompose" />
         <activity
             android:name=".RowColumnActivity"
             android:exported="false"

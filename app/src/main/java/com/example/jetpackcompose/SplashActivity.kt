@@ -45,5 +45,22 @@ class SplashActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val state = findViewById<Button>(R.id.state);
+        state.setOnClickListener {
+            val intent : Intent = Intent(this, StateHoistingActivity::class.java);
+            startActivity(intent)
+        }
+
+        val quote = findViewById<Button>(R.id.quote);
+        quote.setOnClickListener {
+            val intent : Intent = Intent(this, QuoteActivity::class.java);
+            startActivity(intent)
+        }
+
+        val lambda = findViewById<Button>(R.id.lambda);
+        lambda.setOnClickListener {
+            val intent : Intent = Intent(this, LambdaActivity::class.java);
+            startActivity(intent)
+        }
     }
 }
